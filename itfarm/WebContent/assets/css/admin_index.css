@@ -1,0 +1,32 @@
+/* ====================첫화면 표======================== */
+.tb11{
+	width: 100%;
+}
+.tb11 td{
+	width: 25%;
+	height: 110px;
+	
+}
+.tb22{
+	width: 49.5%;
+	float:left;
+}
+
+.tb22 td{
+	width: 20%;
+	height: 90px;
+	
+}
+.tb33{
+	width: 49.5%;
+	float:left;
+}
+
+.tb33 td{
+	width: 20%;
+	height: 90px;
+}
+.index_h3{margin-top: 110px;}
+/* ========================================== */
+span {font-size: 14px;}
+

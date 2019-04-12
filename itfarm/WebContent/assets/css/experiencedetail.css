@@ -1,0 +1,229 @@
+.content {
+	/* 	width: 900px; */
+	width: 80%;
+	overflow: auto;
+	margin-top: 80px;
+	border-bottom: 1px solid #989898;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info_l, .info_c, .info_r {
+	float: left;
+	/* width: 50%; */
+	height: 100%;
+	/* background: pink; */
+	width: 32%;
+}
+
+.info_l {
+	width: 30%;
+	margin-right: 1%;
+}
+
+.info_c {
+	width: 43%;
+	font-size: 0.75em;
+}
+
+.info_r {
+	width: 23%;
+	font-size: 0.75em;
+	float: right;
+	/* text-align: right; */
+}
+
+.info_r button {
+	float: right;
+	width: 100%;
+	font-size: 16px;
+}
+
+.total_p {
+	float: right;
+	margin-bottom: 7px;
+	background: #f2f2f2;
+	border-radius: 5px;
+	padding: 5px;
+}
+.hinput {background: #f2f2f2;}
+
+.info_r  input[type=number] {
+	width: 25%;
+	font-size: 16px;
+	/* padding: 0; 
+	margin: 0; */
+}
+
+.info_r  input[type=text] {
+	width: 80%;
+	font-size: 16px;
+	line-height: 0;
+	height: 30px;
+	/* padding: 0;
+	margin: 0; */
+}
+
+.info_r p {
+	font-weight: bold;
+}
+
+label img {
+	width: 30px;
+	height: 30px;
+}
+
+.datech {
+	/* height: 30px; */
+	
+}
+
+.cnt {
+	margin-bottom: 7px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 5px;
+}
+
+/*상품 내용*/
+.img1 {
+	width: 95%;
+	height: 320px;
+	border-radius: 4px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+	border-bottom: 5px solid #A8CEA4;
+}
+
+.price {
+	font-weight: bold;
+	/* font-size: 35px; */
+	/* color: #c73f42; */
+	/* margin: 10px 0px 30px 0; */
+	border: 0;
+}
+
+#button {
+	padding-left: 50px;
+}
+
+.row1 {
+	float: left;
+	width: 18%;
+	font-weight: bold;
+}
+
+.place {
+	/* font-size: 18px; */
+	/* margin: 30px 0px 10px 0; */
+	
+}
+
+.period {
+	/* font-size: 15px; */
+	margin: 5px 0px 0px 0px;
+}
+
+
+.button {
+	border-radius: 2em;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: bold;
+	height: 3.5em;
+	letter-spacing: 0.1em;
+	line-height: 3.65em;
+	padding: 0 3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+	.button {
+		padding: 0;
+	}
+}
+
+.button {
+	background-color: #fafafa;
+	color: #666 !important;
+}
+
+.button:hover {
+	background-color: white;
+}
+
+.button.alt {
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+	color: #666 !important;
+}
+
+.button.alt:hover {
+	background-color: rgba(144, 144, 144, 0.075);
+}
+
+.button.special {
+	background-color: #A8CEA4;
+	color: #ffffff !important;
+}
+
+.button.special:hover {
+	background-color: #B6D7A8;
+}
+
+.subprice {
+	margin-left: 200px;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.subimg {
+	/* width: 700px; */
+	width: 80%;
+	margin: 0 auto;
+	font-size: 0.9em;
+}
+
+.img2 {
+	margin-top: 80px;
+}
+
+.button2 {
+	text-align: center;
+	margin: 50px 0;
+}
+
+.pnum {
+	width: 10%;
+	text-align: center;
+}
+
+input.hinput[type=text] {
+	/* background-color: lightgrey; */
+	display: inline-block;
+	height: 50px;
+	font-size: 40px;
+	width: 90%;
+	padding: 0;
+	margin: 0;
+	border: 0px;
+	text-align: right;
+}
+
+input.hinput[type=text]:focus {
+	/* background-color: lightgrey; */
+	display: inline-block;
+	outline: none;
+	padding: 0;
+	margin: 0;
+}

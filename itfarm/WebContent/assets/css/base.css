@@ -1,0 +1,156 @@
+
+	#logo {
+		padding-left: 30px;
+		padding-top: 5px;
+	}
+
+.dropbtn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	font-size:0.9em;
+	
+}
+.dropdown a {
+	color: inherit;
+	text-decoration: none;
+}
+.dropdown a:hover {
+	color: #a8cea4;
+	font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	text-align: center;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+	font-size: 0.7em;
+}
+.dropdown-content a:hover {
+    background-color: #eee;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/* Header */
+	#logo {
+		padding-left: 30px;
+		padding-top: 5px;
+	}
+
+	#header {
+		position: fixed;
+		z-index: 10000;
+		left: 0;
+		top: 0;
+		width: 100%;
+		background: #FFF;
+		height: 3.8em;
+		line-height: 4em;
+		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+	}
+
+	#header h2 {
+		color: #000;
+	}
+
+		#header nav {
+			position: absolute;
+			right: 0.5em;
+			top: 0;
+			height: 3em;
+			line-height: 3em;
+		}
+
+			#header nav ul {
+				margin: 0;
+			}
+
+				#header nav ul li, .dropdown {
+					display: inline-block;
+					margin-left: 0.5em;
+					font-size: 0.9em;
+				}
+
+					#header nav ul li a, .dropdown a{
+						display: block;
+						color: inherit;
+						text-decoration: none;
+						height: 3em;
+						line-height: 4.3em;
+						padding: 0 1em 0 0.5em;
+						outline: 0;
+					}
+				#header nav ul li a:hover {
+  						/* color: #2dc997; */
+						color:#a8cea4;
+					}
+
+		@media screen and (max-width: 736px) {
+
+			#header {
+				height: 2.5em;
+				line-height: 2.5em;
+			}
+
+				#header nav {
+					display: none;
+				}
+
+		}
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* Reset */
+body,h1,h2,h3,h4,h5,h6,div,p,blockquote,pre,address,ul,ol,li,dl,dt,dd,table,caption,th,td,form,fieldset,legend,hr {margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+ul, ol {list-style:none;}
+table {margin:0;padding:0;border-spacing:0;border:0;_border-collapse:collapse;}
+table, th, td {border: 0 none;border-collapse:collapse;margin: 0;}
+*+html table {border-collapse:collapse;}
+img, fieldset, abbr, acronym {border:0;}
+address, caption, cite, code, dfn, em, var {font-style:normal;font-weight:normal;}
+q:before, q:after {content: '';}
+input, select, button, textarea {color:#757575;font-size:100%;font-family:'dotum';}
+/* Base */
+html {height:100%;}
+body {font:12px/18px "나눔고딕","Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",Dotum,"굴림",Gulim,Helvetica,sans-serif,Arial;}
+hr {display:none}
+caption, legend,
+#skipNavi{width:0;height:0;line-height:0;overflow:hidden;visibility:hidden;font-size:0;}
+a {color:#6e6e6e;text-decoration:none;}
+a:focus, a:hover, a:active {text-decoration:underline;}
+input.text,textarea.textarea {padding:2px 0;border:1px solid #c7c7c7;}
+label, input.button, input.submit, input.image, button {cursor:pointer;}
+label {display:none}
+textarea, pre {overflow:auto;}
+label.on {display:inline-block;}
+.clearfix:after  {content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix   {display: block;}
+/* End hide from IE-mac */
+.cboth {clear:both;}
+.invisible {overflow:hidden;visibility:hidden;position:absolute;width:0;height:0;font-size:0;line-height:0;}

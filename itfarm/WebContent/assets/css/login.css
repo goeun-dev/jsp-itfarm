@@ -1,0 +1,158 @@
+section {
+	text-align: center;
+	margin-top: 100px;
+}
+
+section .login-form {
+	font-size: 0.7em;
+}
+
+
+.login-input {
+	font-size: 1em;
+	padding: 5px;
+	width: 20%;
+	margin-bottom: 15px;
+}
+
+.login-line {
+	border-top: 1px solid #eee;
+	margin: 3px;
+}
+.login-button {
+	width: 20%;
+}
+
+/* ========추가========= */
+/* Button */
+/*input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,*/
+.button {
+/*	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;*/
+	border-radius: 2em;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: bold;
+	height: 3.5em;
+	letter-spacing: 0.1em;
+	line-height: 3.65em;
+	padding: 0 3em;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+	@media screen and (max-width: 480px) {
+
+/*		input[type="submit"],
+		input[type="reset"],
+		input[type="button"],
+		button,*/
+		.button {
+			padding: 0;
+		}
+
+	}
+
+/*input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,*/
+.button {
+	background-color: #fafafa;
+	color: #666 !important;
+}
+
+/*	input[type="submit"]:hover,
+	input[type="reset"]:hover,
+	input[type="button"]:hover,
+	button:hover,*/
+	.button:hover {
+		background-color: white;
+	}
+
+/*	input[type="submit"].alt,
+	input[type="reset"].alt,
+	input[type="button"].alt,
+	button.alt,*/
+	.button.alt {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+		color: #666 !important;
+	}
+
+/*		input[type="submit"].alt:hover,
+		input[type="reset"].alt:hover,
+		input[type="button"].alt:hover,
+		button.alt:hover,*/
+		.button.alt:hover {
+			background-color: rgba(144, 144, 144, 0.075);
+		}
+
+/*	input[type="submit"].special,
+	input[type="reset"].special,
+	input[type="button"].special,
+	button.special,*/
+	.button.special {
+		background-color: #A8CEA4;
+		color: #ffffff !important;
+	}
+
+/*		input[type="submit"].special:hover,
+		input[type="reset"].special:hover,
+		input[type="button"].special:hover,
+		button.special:hover,*/
+		.button.special:hover {
+			background-color: #B6D7A8;
+		}
+
+
+#loginbtn {
+	font-size: 12px;
+	width: 200px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+p {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------반응형을 위한 css------------------*/
+@media screen and (max-width:679px) {
+/*---------------mobile css------------------*/
+.login-input {
+	padding: 5px;
+	width: 50%;
+}
+section .login-form {
+	font-size: 0.9em;
+}
+}
+@media screen and (min-width:680px) and (max-width:1099px) {
+/*--------------tablet css------------------*/
+
+}

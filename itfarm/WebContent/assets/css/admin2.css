@@ -1,0 +1,39 @@
+/* ====================세부 설정======================== */
+#wrap {
+	/* width: 971px; */
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.left-loc {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.chk {
+	text-align: center;
+}
+
+.search_div {
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+
+.search_form {
+	text-align: left;
+	margin: 0 auto; 
+	width: 95%;
+}
+
+.search_form table {
+	border: none;
+}
+.btn-group {
+	text-align: right;
+	width: 100%;
+	margin: 10px 0;
+}
+.tlabel {width: 7%;}

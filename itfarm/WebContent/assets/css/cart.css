@@ -1,0 +1,184 @@
+section {
+	text-align: center;
+}
+
+section p {
+	font-size: 0.9em;
+}
+
+.table {
+	border-collapse: collapse;
+}
+
+.table th, .table td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+	background-color: #f2f2f2
+}
+
+.pnum, .numbox2 .abtn2 {
+	width: 90%;
+}
+
+input.pnum[type=text] {
+	font-size: 0.95em;
+	text-align: center;
+}
+
+.td1 {
+	width: 3%;
+}
+
+.td2 {
+	width: 23%;
+}
+
+.td3, .td5, .td6 {
+	width: 10%;
+}
+
+.td7 {
+	width: 7%;
+}
+
+.td4 {
+	width: 4%;
+}
+
+.main1 {
+	background: #f2f2f2;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.btn, .btn2 {
+	width: 92%;
+	margin: 0 auto;
+}
+
+.small {
+	font-size: 0.6em;
+	margin-bottom: 5px;
+}
+
+.abtn {
+	text-decoration: none;
+	border-radius: 5px;
+	width: 15%;
+}
+
+.abtn2 {
+	width: 90%;
+}
+
+.btn .abtn {
+	font-size: 0.9em;
+	width: 12%;
+}
+
+.btn2 .abtn {
+	font-size: 0.8em;
+	width: 15%;
+}
+
+/* Button */
+.button2 {
+	background-color: #fff;
+	border-radius: 4px;
+	border: 0;
+	color: #A8CEA4 !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 2.85em;
+	line-height: 2.95em;
+	padding: 0 1.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+	border: 1px solid #A8CEA4;
+}
+
+.button {
+	background-color: #A8CEA4;
+	border-radius: 4px;
+	border: 0;
+	color: #ffffff !important;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 400;
+	height: 2.85em;
+	line-height: 2.95em;
+	padding: 0 1.5em;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.button:hover {
+	background-color: #B6D7A8;
+}
+
+.button2:hover {
+	opacity: 0.7;
+}
+
+.button.fit {
+	display: block;
+	margin: 0 0 1em 0;
+	width: 100%;
+}
+
+/* ================품절이미지표시===================== */
+.cont {
+	position: relative;
+	width: 50%;
+}
+
+.image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.middle {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.cont .image {
+	opacity: 0.7;
+}
+
+.cont .middle {
+	opacity: 1;
+}
+
+.text {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	font-size: 16px;
+	padding: 20px 20px;
+}
+
+.chk-hidden {
+	display: hidden;
+}

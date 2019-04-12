@@ -1,0 +1,37 @@
+.product-list {
+	float: left;
+	width: 30%;
+	height: 450px;
+}
+.sub-center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.product-list img{ width:90%; height: 200px; }
+.product-list p{ font-size: 0.9em; }
+.product-list a{ text-decoration: none; color:#727c6f; font-weight: bold; }
+section {
+	margin-top: 0px;
+	font-size: 14px;
+	width: 100%;
+}
+
+/*---네비 밑 그라데이션---*/
+section1{
+	margin-top: 18px;
+	font-weight: bold;
+	
+	background: linear-gradient(to left, #A8CEA4,lightGrey);
+	display: block;
+	width: 100%;
+	height: 70px;
+	
+}
+
+.bar{
+	font-size: 35px;
+	color: #fff;
+	margin: 17px 0 0 60px;
+	float:left;
+
+}

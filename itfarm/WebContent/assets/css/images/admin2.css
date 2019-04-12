@@ -1,0 +1,212 @@
+/*-----------------------------------------------세로 네비게이션 css-----------------------------------------------------------*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+	height: 100%;
+	width: 170px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	/* background-color: #eee; */
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.sidenav a img {
+	width: 160px;
+	height: 40px;
+}
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+	padding: 10px 8px 10px 16px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #818181;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Main content */
+.main {
+	margin-left: 200px; /* Same as the width of the sidenav */
+	/* font-size: 20px;  */
+	padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+	background-color: #f2f2f2;
+	border-left: 5px solid #999;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+	display: none;
+	background-color: #ffffff;
+	padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+	float: right;
+	padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a { /* font-size: 18px; */
+		
+	}
+}
+/* ====================로그인 네비게이션======================== */
+nav {
+	/* float: right; */
+	margin-top: 17px;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: right;
+}
+
+nav button {
+	font-size: 13px;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid #cecece;
+}
+
+.login {
+	width: 10%;
+	font-size: 13px;
+	display: inline-block;
+}
+/* ====================세부 설정======================== */
+#wrap {
+	/* width: 971px; */
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.left-loc {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px; /* 글꼴 크기 */
+	line-height: 24px; /* 줄 간격 */
+}
+
+table td, th {
+	border: #d3d3d3 solid 1px; /* 경계선 색상 스타일 굵기 */
+	padding: 5px; /* 안쪽 여백 */
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+th {
+	background: #f2f2f2; /* 배경색 */
+}
+
+img {
+	width: 220px; /* 이미지 너비(가로) */
+	height: 300px; /* 이미지 높이(세로) */
+}
+
+a {
+	text-decoration: none; /* 링크 밑줄 없애기 */
+	color: black; /* 글 색상 */
+	font-size: 13px;
+}
+
+p, label, input, select {
+	font-size: 13px;
+}
+
+a:HOVER {
+	text-decoration: underline;
+}
+
+.chk {
+	text-align: center;
+}
+
+button:focus {
+	outline: none;
+}
+
+.search_div {
+	padding: 15px 0;
+	margin-bottom: 10px;
+	background: #f2f2f2;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+}
+
+.search_form {
+	text-align: left;
+	/* margin: 0 auto; */
+	width: 95%;
+}
+
+.search_form table {
+	border: none;
+}
+.btn-group {
+	text-align: right;
+	width: 100%;
+	margin: 10px 0;
+}
+
+/* ====================첫화면 표======================== */
+.tb11{
+	width: 100%;
+}
+.tb11 td{
+	width: 25%;
+	height: 110px;
+	
+}
+.tb22{
+	width: 49.5%;
+	float:left;
+}
+
+.tb22 td{
+	width: 20%;
+	height: 90px;
+	
+}
+.tb33{
+	width: 49.5%;
+	float:left;
+}
+
+.tb33 td{
+	width: 20%;
+	height: 90px;
+}
+

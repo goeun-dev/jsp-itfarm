@@ -1,0 +1,25 @@
+div form {
+	text-align: center;
+}
+
+.rtable {
+	margin: 0 auto;
+}
+
+.rtable input, .rtable select, .rtable textarea, .rtable, .divWrap p {
+	font-size: 15px;
+}
+
+.rtitle {
+	background: #f2f2f2;
+	font-weight: bold;
+}
+
+.rdiv {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.notice {text-align: left; }
+.rimg {width: 100px;}
+.divWrap {width: 70%; margin: 0 auto;}

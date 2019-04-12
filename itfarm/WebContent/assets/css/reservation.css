@@ -1,0 +1,73 @@
+table {font-size: 0.9em;}
+hr {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+h3, h2 {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 80px;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+.content1 {
+	margin-left: 50px;
+	border: 1px solid black;
+	width: 90%;
+}
+
+.content2 {
+	margin-left: 50px;
+	border: 1px solid black;
+	width: 90%;
+}
+
+td {
+	padding-left: 80px;
+	font-size: 0.9em;
+}
+
+.main1 {
+	text-align: center;
+	/* background: lightgray; */
+	font-weight: bold;
+}
+
+img.box1 {
+	margin-left: 10px;
+	width: 170px;
+	height: 110px;
+}
+
+.box1 {
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+.box2 {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.sub1 td {
+	margin-bottom: 10px;
+}
+
+.main2 {
+	width: 20%;
+	background: lightgray;
+	text-align: center;
+	font-weight: bold;
+}
+/* Footer */
+#footer {
+	margin-top: 100px;
+}
